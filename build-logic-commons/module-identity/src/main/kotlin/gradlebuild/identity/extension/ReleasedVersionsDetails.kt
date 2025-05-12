@@ -73,5 +73,5 @@ class ReleasedVersionsDetails(currentBaseVersion: GradleVersion, releasedVersion
     private
     fun VersionNumber.format() =
         // reformat according to our versioning scheme, since toString() would typically convert 1.0 to 1.0.0
-        GradleVersion.version("$major.${minor}${if (micro > 0) ".$micro" else ""}${if (qualifier != null) "-$qualifier" else ""}")
+        GradleVersion.version("$major.${minor}${if (micro > 0) ".$micro" else ""}${if (qualifier != null) "-$qualifier" else ""}") // FIXME: Gradle version format
 }
