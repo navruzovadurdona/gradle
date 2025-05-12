@@ -1206,7 +1206,7 @@ public abstract class DefaultConfiguration extends AbstractFileCollection implem
             configurationsProvider,
             childResolutionStrategy,
             rootComponentMetadataBuilder,
-            ConfigurationRolesForMigration.LEGACY_TO_RESOLVABLE_DEPENDENCY_SCOPE
+            ConfigurationRoles.RESOLVABLE_DEPENDENCY_SCOPE
         );
         configurationsProvider.setTheOnlyConfiguration(copiedConfiguration);
         return copiedConfiguration;
