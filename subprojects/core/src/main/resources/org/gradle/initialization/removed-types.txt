@@ -25,3 +25,4 @@ org.gradle.api.artifacts.transform.VariantTransform
 org.gradle.api.tasks.incremental.IncrementalTaskInputs
 org.gradle.workers.WorkerConfiguration
 org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep$Operation$Details
+org.gradle.api.tasks.diagnostics.ProjectBasedReportTask
