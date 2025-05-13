@@ -18,7 +18,8 @@
 [[sec:gradle_documentation]]
 == Gradle Documentation
 
-Copyright © 2024 Gradle, Inc. All rights reserved.
+Copyright © 2025 Gradle, Inc.
+All rights reserved.
 Gradle is a trademark of Gradle, Inc.
 
 Gradle's Build Tool source code is open-source and licensed under the link:https://github.com/gradle/gradle/blob/master/LICENSE[Apache License 2.0].
