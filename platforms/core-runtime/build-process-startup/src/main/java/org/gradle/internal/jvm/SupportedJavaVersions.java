@@ -20,12 +20,6 @@ package org.gradle.internal.jvm;
  * Contains information about the Java versions that are supported by Gradle.
  */
 public class SupportedJavaVersions {
-
-    /**
-     * The minimum JVM version that is required to start a Gradle entrypoint.
-     */
-    public static final int MINIMUM_STARTUP_JAVA_RUNTIME = 8;
-
     /**
      * The minimum JVM version that is required to run the Gradle wrapper.
      */
